@@ -1,10 +1,10 @@
--- Create a temporary table to store customer records
+
 CREATE TEMP TABLE customer_data (
     customer_id INT,
     order_value DECIMAL(10, 2)
 );
 
--- Insert sample customer data into the temporary table
+
 INSERT INTO customer_data (customer_id, order_value)
 VALUES
     (1, 120.50),
